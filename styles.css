@@ -1,0 +1,96 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+img {
+  width: 100px;
+}
+
+#hero-section {
+  height: 400px;
+  background: url('images/lima.webp');
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero-title {
+  margin: 0;
+  background-color: #1d3557;
+  padding: 3px 12px 5px 12px;
+  border-radius: 10px;
+}
+
+#hero-subtitle {
+  margin: 15px 40px;
+  padding: 5px 30px 8px 30px;
+  background-color: #457b9d;
+  border-radius: 10px;
+}
+
+#activities-section {
+  background-color: #f1faee;
+  color: #1d3557;
+  padding: 20px 30px 60px 30px;
+}
+
+#activities {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  gap: 50px;
+}
+
+.activity {
+  width: 30%;
+}
+.activity-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#guide-section {
+  background-color: #a8dadc;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 400px;
+  padding: 20px 15px;
+  margin: 50px auto;
+  border-bottom: 5px solid #1d3557;
+  border-radius: 10px;
+}
+
+#guide-section h4,
+h3 {
+  margin: 0;
+}
+
+#guide-img {
+  width: 180px;
+  height: 200px;
+  background: url('images/erick.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+#guide-summary {
+  width: 220px;
+}
